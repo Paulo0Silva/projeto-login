@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* configuraçao das medias queries 
+pequenas telas : ate 600px
+celular: de 600px ate 768px
+tablet: 768px ate 992px
+desktop: 992px ate 1200px
+telas grandes: 1200px
+
+*/
+/* VERSAO  TABLET */
+@media screen and (min-width:768px) and (max-width:992px)  {
+    body {
+        transition-duration: 0.7s;
+        background-attachment: fixed;
+        background-image: linear-gradient(to right bottom, #3E1366,#8A2BE2,#AF71E8);
+    }
+    img {
+        transition-duration: 0.4s;
+        display: inline-block;
+        width: 520px;
+        height: 300px;
+    }
+    section {
+        transition-duration: 0.4s;
+        width: 500px;
+        
+    }
+    #ientrar, button {
+        width: 94%;
+    }
+}
+
+
+/* VERSAO PC */
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body {
+        transition-duration: 0.7s;
+        background-attachment: fixed;
+        background-image: linear-gradient(to right bottom, #3E1366,#8A2BE2,#AF71E8);
+    }
+    img {
+        transition-duration: 0.4s;
+        display: inline-block;
+        width: 520px;
+        height: 300px;
+    }
+    section {
+        transition-duration: 0.4s;
+        width: 500px;
+        
+    }
+    #ientrar, button {
+        width: 94%;
+    }
+}
+
+/* TELAS GRANDES */
+@media screen and (min-width:1200px) {
+    body {
+        transition-duration: 0.7s;
+        background-attachment: fixed;
+        background-image: linear-gradient(to right bottom, #3E1366,#8A2BE2,#AF71E8);
+    }
+    img {
+        transition-duration: 0.4s;
+        display: inline-block;
+        width: 520px;
+        height: 300px;
+    }
+    section {
+        transition-duration: 0.4s;
+        width: 500px;
+        
+    }
+    #ientrar, button {
+        width: 94%;
+    }
+}

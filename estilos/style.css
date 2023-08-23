@@ -1,0 +1,101 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    background-color: blueviolet;
+}
+main {
+    position: relative;
+}
+section {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,4%);
+    border-radius: 10px;
+    
+    padding: 10px;
+    width: 270px;
+    background-color: white;
+}
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+img {
+    display:block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: 290px;
+    height: 240px;
+}
+p {
+    padding: 10px;
+    line-height: 24px;
+}
+input,button {
+    margin-bottom: 5px;
+    height: 24px;
+    width: 90%;
+    
+}
+#iemail{
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(25, 230, 230);
+    border: 1px solid rgba(0, 0, 0, 0.438);
+}
+#isenha {
+    
+    display: block;
+    padding: 8px;
+    background-color: rgb(25, 230, 230);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+}
+
+#ientrar {
+    height: 40px;
+    display: block;
+    padding: 8px;
+    background-color: rgb(16, 168, 168);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    width: 97%;
+}
+#ientrar:hover {
+    transition: 0.3s;
+    opacity: 0.8;
+}
+button{
+    height: 40px;
+    display: block;
+    padding: 8px;
+    font-size: 0.9em;
+    background-color: white;
+    border-radius: 8px;
+    color:rgb(16, 168, 168) ;
+    border: 1px solid rgb(16, 168, 168);
+    width: 97%;
+}
+button:hover {
+    transition: 0.3s;
+    color: rgb(13, 145, 145);
+    background-color:rgba(16, 168, 168, 0.61) ;
+}
+a {
+    text-decoration: none;
+}
+
